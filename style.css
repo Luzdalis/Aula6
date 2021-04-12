@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body, .top{
+    width:1024px;   
+    height: 100%;
+}
+
+.preta{
+    background-color:#180E0C;
+    color: white;
+}
+
+.marron,aside{
+    background-color:#37201A;
+    color: #7A503E;
+}
+
+.pastel{
+    color: #C27159;
+}
+
+aside{
+    background-color: #251611;
+}
+
+footer{
+    background-color: #180E0C;
+    color: #7A503E;
+}
