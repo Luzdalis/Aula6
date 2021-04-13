@@ -4,6 +4,7 @@
 
 :root{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
 }
 
 body{
@@ -11,41 +12,18 @@ body{
     border: 1px solid #707070;
 }
 
-.wrapper{
-    display: grid;
-    width: 100%;
+.wrapper1,.wrapper2, .wrapper3{
+    display: flex;
+    margin: 30px;
 }
 
-.titulo{
-    align-items: center; 
+article{
+    float:left;
 }
 
-.menu{
-    justify-content: flex-end;
-}
-
-.wrapper1{
-    display: grid;
-    grid-template-columns:  25% 25% 25% 25%;
-    padding: 70px 0px;
-    
-}
-
-.wrapper2{
-    display: grid;
-    grid-template-columns:  25% 25% 50%;
-    padding: 40px 20px;
-}
-
-.wrapper3{
-    display: grid;
-    grid-template-columns:  65% 35%;
-    padding: 40px 30px;
-}
-
-.preta{  
-    background-color:#180E0C;
-    color: white;
+.inwrapper1, .inwrapper2, .inwrapper3{
+    padding: 20px;
+    margin: 10px;
 }
 
 .marron,aside{
@@ -80,6 +58,30 @@ footer{
     height:350px;
 }
 
-.wrapper1>article{
-    justify-content: space-around;
+#menu{
+    display: flex;
+    background-color: #180E0C;
+    justify-content: space-between;
+}
+
+#menu div{
+    color: white;
+    font-size: 20px;
+    align-self: center;
+}
+
+h1{
+    font-size: 50px;
+    padding-left: 55px;
+}
+
+#menu div a{
+    color: white;
+    padding: 15px;
+}
+
+#menu a:hover{
+    font-weight: bold;
+    background: rgb(74, 150, 87);
+    border-radius: 5px;
 }
