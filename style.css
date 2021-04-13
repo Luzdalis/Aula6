@@ -4,15 +4,46 @@
 
 :root{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
 }
 
-body, .top{
-    width:1024px;   
-    height: 100%;
+body{
+    width:1024px; 
+    border: 1px solid #707070;
 }
 
-.preta{
+.wrapper{
+    display: grid;
+    width: 100%;
+}
+
+.titulo{
+    align-items: center; 
+}
+
+.menu{
+    justify-content: flex-end;
+}
+
+.wrapper1{
+    display: grid;
+    grid-template-columns:  25% 25% 25% 25%;
+    padding: 70px 0px;
+    
+}
+
+.wrapper2{
+    display: grid;
+    grid-template-columns:  25% 25% 50%;
+    padding: 40px 20px;
+}
+
+.wrapper3{
+    display: grid;
+    grid-template-columns:  65% 35%;
+    padding: 40px 30px;
+}
+
+.preta{  
     background-color:#180E0C;
     color: white;
 }
@@ -33,4 +64,22 @@ aside{
 footer{
     background-color: #180E0C;
     color: #7A503E;
+}
+
+.media{
+    width: 180px;
+}
+
+.pequena{
+    width: 80px;
+    height: 80px;
+}
+
+.top{
+    width:100%;
+    height:350px;
+}
+
+.wrapper1>article{
+    justify-content: space-around;
 }
