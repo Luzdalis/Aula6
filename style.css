@@ -4,26 +4,35 @@
 
 :root{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 14px;
 }
 
-body{
-    width:1024px; 
-    border: 1px solid #707070;
+body{ 
+    margin: 0%;
 }
 
-.wrapper1,.wrapper2, .wrapper3{
+.wrapper1, .wrapper2 , .wrapper3{
     display: flex;
-    margin: 30px;
 }
 
-article{
-    float:left;
-}
-
-.inwrapper1, .inwrapper2, .inwrapper3{
+.inwrapper1{
     padding: 20px;
+    margin: 80px 10px;
+    width: 100%;
+}
+
+.inwrapper2_C1, .inwrapper2_C2 {
+    width: 100%;
+    padding: 10px;
+}
+
+.img_pequena{
+    display: flex;
+}
+
+.inwrapper3{
+    padding: 40px;
     margin: 10px;
+    width: 100%;
 }
 
 .marron,aside{
@@ -44,24 +53,29 @@ footer{
     color: #7A503E;
 }
 
-.media{
-    width: 180px;
-}
-
 .pequena{
     width: 80px;
     height: 80px;
+    margin: 10px;
+}
+
+.media{
+    width: 100%;
+}
+
+.imagem_pez{
+    width: 100%;
 }
 
 .top{
     width:100%;
-    height:350px;
 }
 
 #menu{
     display: flex;
     background-color: #180E0C;
     justify-content: space-between;
+    padding-right: 40px;
 }
 
 #menu div{
@@ -71,17 +85,21 @@ footer{
 }
 
 h1{
-    font-size: 50px;
+    font-size: 45px;
     padding-left: 55px;
+    font-weight: 400;
 }
 
 #menu div a{
+    display: inline-block;
     color: white;
-    padding: 15px;
+    padding: 0.2em 1em;
+    text-decoration: none;
 }
 
 #menu a:hover{
-    font-weight: bold;
+    text-decoration:none;
     background: rgb(74, 150, 87);
-    border-radius: 5px;
+    border-radius: 0.2em;
+    
 }
