@@ -14,6 +14,10 @@ body{
     display: flex;
 }
 
+.wrapper2{
+    margin: 80px 10px;
+}
+
 .inwrapper1{
     padding: 20px;
     margin: 80px 10px;
@@ -22,22 +26,43 @@ body{
 
 .inwrapper2_C1, .inwrapper2_C2 {
     width: 100%;
-    padding: 10px;
+    padding: 30px;
 }
 
-.img_pequena{
+.inwrapper2_C3{
+    padding: 30px;
+}
+
+.art_coluna1e2{
     display: flex;
+    width: 100%;
 }
 
-.inwrapper3{
+.inwrapper3_C1, .inwrapper3_C2{
     padding: 40px;
     margin: 10px;
-    width: 100%;
+}
+
+.inwrapper3_C1{
+    width: 60%;
+}
+
+.inwrapper3_C2{
+    width: 40%;
 }
 
 .marron,aside{
     background-color:#37201A;
     color: #7A503E;
+}
+
+a{
+    color: #7A503E;
+}
+
+li{
+    list-style: none;
+    padding: 10px 0px;
 }
 
 .pastel{
@@ -51,12 +76,15 @@ aside{
 footer{
     background-color: #180E0C;
     color: #7A503E;
+    padding: 20px;
+    align-self: center;
+    text-align: center
 }
 
 .pequena{
     width: 80px;
     height: 80px;
-    margin: 10px;
+    margin: 10px 10px 10px 0;
 }
 
 .media{
@@ -82,12 +110,7 @@ footer{
     color: white;
     font-size: 20px;
     align-self: center;
-}
-
-h1{
-    font-size: 45px;
-    padding-left: 55px;
-    font-weight: 400;
+    padding: 25px;
 }
 
 #menu div a{
@@ -102,4 +125,10 @@ h1{
     background: rgb(74, 150, 87);
     border-radius: 0.2em;
     
+}
+
+h1{
+    font-size: 45px;
+    padding-left: 20px;
+    font-weight: 400;
 }
