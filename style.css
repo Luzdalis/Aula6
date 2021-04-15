@@ -95,8 +95,13 @@ footer{
     width: 100%;
 }
 
-.top{
-    width:100%;
+#top{
+    width: 100%;
+    height: 25rem;
+    background-image: url(img/muejr_jardin.jpg);
+    background-position: center 10%;
+    background-size: cover;
+    
 }
 
 #menu{
@@ -106,6 +111,8 @@ footer{
     padding-right: 40px;
 }
 
+
+
 #menu div{
     color: white;
     font-size: 20px;
@@ -113,12 +120,7 @@ footer{
     padding: 25px;
 }
 
-#menu div a{
-    display: inline-block;
-    color: white;
-    padding: 0.2em 1em;
-    text-decoration: none;
-}
+
 
 #menu a:hover{
     text-decoration:none;
@@ -131,4 +133,57 @@ h1{
     font-size: 45px;
     padding-left: 20px;
     font-weight: 400;
+}
+
+#menu nav a{
+    display: inline-block;
+    color: white;
+    padding: 0.2em 1em;
+    text-decoration: none;
+    display: none;
+}
+
+#menu nav span{
+    display: none;
+}
+
+/* Celular */
+@media screen and (min-width: 375px) and (max-width: 767px){ 
+    #menu nav span{
+        /* Mostramos el boton de menu para celular */
+        display: inline-block;
+    }
+    #top {
+        height: 25rem;
+    }
+
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px){ 
+    #menu nav span{
+        /* Mostramos el boton de menu para celular */
+        display: inline-block;
+    }
+    #top {
+        height: 25rem;
+    }
+
+}
+
+/* Desktop */
+@media screen and (min-width:1024px) {
+    #menu nav a{
+        /* Mostramos el menú de PC */
+        display: inline-block;
+        color: white;
+        padding: 0.2em 1em;
+        text-decoration: none;
+    }
+    #menu nav span{
+        /* Ocultamos el boton de menu para celular */
+        display: none;
+    }
+
+    
 }
